@@ -1,0 +1,9 @@
+generos:
+    type: rest
+    prefix: generos
+    resource: ApiBundle\Controller\GeneroController
+
+pelicula:    
+    type: rest
+    prefix: pelicula
+    resource: ApiBundle\Controller\PeliculaController
